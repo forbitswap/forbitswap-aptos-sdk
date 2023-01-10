@@ -60,31 +60,31 @@ export class SDK {
     const mainnetOptions = {
       nativeCoin: '0x1::aptos_coin::AptosCoin',
       modules: {
-        Scripts: '0xa3b854a301bf4d44b6bbeb3354e50c94ab1b5cc82dd1e03a325cbd06a24e94b9::forbitSwapV1',
+        Scripts: '0x3da41ea4c78d23d16966064bbe5dba40263a65200dc96973a673c66c4f999999::forbitswapV1',
         CoinInfo: '0x1::coin::CoinInfo',
         CoinStore: '0x1::coin::CoinStore',
-        DeployerAddress: '0xa3b854a301bf4d44b6bbeb3354e50c94ab1b5cc82dd1e03a325cbd06a24e94b9',
-        ResourceAccountAddress: '0x839caa18bb03bc24f651e3426d8f95a4020b7fc68a3e2f3576c4452baf0f69ff',
+        DeployerAddress: '0x3da41ea4c78d23d16966064bbe5dba40263a65200dc96973a673c66c4f999999',
+        ResourceAccountAddress: '0xdda852480521e53601dacc70066a80020097b6db8fed4afd6e7773f5a97b6bf1',
       },
     }
     const devnetOptions = {
       nativeCoin: '0x1::aptos_coin::AptosCoin',
       modules: {
-        Scripts: '0xa3b854a301bf4d44b6bbeb3354e50c94ab1b5cc82dd1e03a325cbd06a24e94b9::forbitSwapV1',
+        Scripts: '0x3da41ea4c78d23d16966064bbe5dba40263a65200dc96973a673c66c4f999999::forbitswapV1',
         CoinInfo: '0x1::coin::CoinInfo',
         CoinStore: '0x1::coin::CoinStore',
-        DeployerAddress: '0xa3b854a301bf4d44b6bbeb3354e50c94ab1b5cc82dd1e03a325cbd06a24e94b9',
-        ResourceAccountAddress: '0x839caa18bb03bc24f651e3426d8f95a4020b7fc68a3e2f3576c4452baf0f69ff',
+        DeployerAddress: '0x3da41ea4c78d23d16966064bbe5dba40263a65200dc96973a673c66c4f999999',
+        ResourceAccountAddress: '0xdda852480521e53601dacc70066a80020097b6db8fed4afd6e7773f5a97b6bf1',
       },
     }
     const testnetOptions = {
       nativeCoin: '0x1::aptos_coin::AptosCoin',
       modules: {
-        Scripts: '0xa3b854a301bf4d44b6bbeb3354e50c94ab1b5cc82dd1e03a325cbd06a24e94b9::forbitSwapV1',
+        Scripts: '0x3da41ea4c78d23d16966064bbe5dba40263a65200dc96973a673c66c4f999999::forbitswapV1',
         CoinInfo: '0x1::coin::CoinInfo',
         CoinStore: '0x1::coin::CoinStore',
-        DeployerAddress: '0xa3b854a301bf4d44b6bbeb3354e50c94ab1b5cc82dd1e03a325cbd06a24e94b9',
-        ResourceAccountAddress: '0x839caa18bb03bc24f651e3426d8f95a4020b7fc68a3e2f3576c4452baf0f69ff',
+        DeployerAddress: '0x3da41ea4c78d23d16966064bbe5dba40263a65200dc96973a673c66c4f999999',
+        ResourceAccountAddress: '0xdda852480521e53601dacc70066a80020097b6db8fed4afd6e7773f5a97b6bf1',
       },
     }
     let networkOptions = mainnetOptions  // default network

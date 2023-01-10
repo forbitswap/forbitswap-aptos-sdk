@@ -3,7 +3,7 @@ import { mulDecimals, divDecimals } from '../utils/number'
 
 const CoinsMapping: { [key: string]: string } = {
   APTOS: '0x1::aptos_coin::AptosCoin',
-  BTC: '0xa3b854a301bf4d44b6bbeb3354e50c94ab1b5cc82dd1e03a325cbd06a24e94b9::SpaceCoin::BTC',
+  BTC: '0x3da41ea4c78d23d16966064bbe5dba40263a65200dc96973a673c66c4f999999::SpaceCoin::BTC',
 }
 
 const CoinInfo: { [key: string]: { decimals: number } } = {
@@ -21,7 +21,7 @@ describe('Swap Module', () => {
   })
 
   test('getAllLPCoinResourcesByAddress', async () => {
-    const address = '0xa3b854a301bf4d44b6bbeb3354e50c94ab1b5cc82dd1e03a325cbd06a24e94b9'
+    const address = '0x3da41ea4c78d23d16966064bbe5dba40263a65200dc96973a673c66c4f999999'
     const output = await sdk.swap.getAllLPCoinResourcesByAddress(address)
     console.log(output)
     expect(1).toBe(1)

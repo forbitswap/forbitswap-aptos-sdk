@@ -1,6 +1,6 @@
 {
   "name": "@forbitswapamm/sdk",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "SDK for use any functions of forbitswap v1 Protocol",
   "repository": "https://github.com/forbitswap/forbitswap-aptos-sdk",
   "homepage": "https://forbitswap.com/",
